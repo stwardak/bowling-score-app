@@ -1,0 +1,52 @@
+requirements & features
+- accurate scoring logic (including strikes, spares, 10th frame, etc.)
+- user input functionality for tracking pins
+- app keeps track of score and returns running total after each frame based on scoring rules 
+- 1 player (can add more later)
+- 10 frames
+- 2 balls per frame, 3 balls in frame 10 if strike or spare
+- app recognizes strikes and spares 
+
+framework
+- frames
+- games
+- score
+- players
+  - player attributes include name and current score
+- rolls
+- pins
+- pins remaining
+- strikes
+- spares
+
+
+decomposition
+- hardcode scoring rules for a single frame
+  - include strikes and spares
+- hardcode 10th frame
+  - hardcode 10th frame
+- make frame class
+  - write methods to input roll scores
+  - write methods to calculate frame score
+- make game class
+  - keep track of total score and transitioning between frames
+- input handling
+  - write code that allows users to input their scores
+- manual testing
+- debug & refactor
+- dd a README 
+- write code to display final game data/determine winner for multiplayer 
+- (don't forget to commit ;) 
+
+upgrades & improvements 
+(for later):
+- implementing multi-player functionality
+- implementing front-end 
+(for way later):
+- implementing numbered pins/pin tracking, splits etc.
+- multiple games
+- additional features like score tracking, averages, stats, and tips
+- animations
+- allow user to edit a score
+- write tests
+
