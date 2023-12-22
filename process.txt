@@ -21,21 +21,34 @@ framework
 
 
 decomposition
-- hardcode scoring rules for a single frame
-  - include strikes and spares
+- write code to take in user input for name and pins/rolls
+
+- hardcode scoring rules for a single frame (no strikes/spares)
+  - include spares logic
+  - include strikes logic
 - hardcode 10th frame
-  - hardcode 10th frame
+- store all 10 frames data and calculate score
+
+
+
 - make frame class
   - write methods to input roll scores
   - write methods to calculate frame score
+
 - make game class
   - keep track of total score and transitioning between frames
+
 - input handling
-  - write code that allows users to input their scores
+  - write code that allows users to input their scores, name, etc.
+
 - manual testing
+
 - debug & refactor
-- dd a README 
+
+- add a README 
+
 - write code to display final game data/determine winner for multiplayer 
+
 - (don't forget to commit ;) 
 
 upgrades & improvements 
